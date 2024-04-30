@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError # type: ignore
 import yaml # type: ignore
-from mlProject import logger
+from src.mlProject import logger
 import json
 import joblib # type: ignore
 from ensure import ensure_annotations # type: ignore
